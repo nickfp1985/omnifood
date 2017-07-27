@@ -1,7 +1,7 @@
 /*
 Nick Peddie  July 2017
-Orange: #e67e22
-Dark-Orange: #a15512
+     Orange: #e67e22           blue: #3498db
+Dark-Orange: #a15512  midnight blue: #2c3e50
 */
 
 /* ----------------------------- */
@@ -116,7 +116,7 @@ h2:after {
 .icon-big {
     font-size: 350%;
     display: block;
-    color: #e67e22;
+    color: #3498db;
     margin-bottom: 10px;
 }
 
@@ -124,7 +124,7 @@ h2:after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #3498db;
     font-size: 120%;
     margin-right: 10px;
 
@@ -139,10 +139,10 @@ h2:after {
 
 a:link,
 a:active {
-    color: #e67e22;
+    color: #3498db;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #3498db;
     transition: border-bottom 0.2s, color: 0.2s;
 }
 
@@ -167,31 +167,31 @@ a:visited {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    background-color: #3498db;
+    border: 1px solid #3498db;
     color: #fff;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 1px solid #3498db;
+    color: #3498db;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #a15512;
+    background-color: #2c3e50;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #a15512;
+    border: 1px solid #2c3e50;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #a15512;
+    border: 1px solid #2c3e50;
     color: #fff;
 }
 
@@ -250,7 +250,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #3498db;
 }
 
 
@@ -335,8 +335,8 @@ header {
 }
 
 .works-step div {
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: #3498db;
+    border: 2px solid #3498db;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
@@ -418,9 +418,54 @@ cite img {
 
 
 /* ----------------------------- */
-/* PLANS */
+/* SIGN UP */
 /* ----------------------------- */
 
 .section-plans {
     background-color: #f4f4f4;
+}
+
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box:first-child {
+  background-color: #fcfcfc;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: #3498db;
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding 5px 0;
 }
