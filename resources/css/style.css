@@ -457,7 +457,7 @@ cite img {
   font-size: 300%;
   margin-bottom: 10px;
   font-weight: 100;
-  color: #3498db;
+  color: #228b22;
 }
 
 .plan-price span {
@@ -506,3 +506,83 @@ input[type=checkbox] {
 }
 
 *:focus {outline:none;}
+
+
+/* ----------------------------- */
+/* FOOTER */
+/* ----------------------------- */
+
+footer {
+  background-color: #333;
+  padding: 2px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 150%;
+}
+
+.ion-social-github,
+.ion-social-linkedin-outline,
+.ion-social-twitch,
+.ion-social-twitter {
+  transition: color: 0.2s;
+}
+
+.ion-social-github:hover {
+  color: #fff;
+}
+
+.ion-social-linkedin-outline:hover {
+  color: #007bb5;
+}
+
+.ion-social-twitch:hover {
+  color: #815fc0;
+}
+
+.ion-social-twitter:hover {
+  color: #55acee;
+}
+
+footer p {
+  color: #666;
+  text-align: center;
+}
