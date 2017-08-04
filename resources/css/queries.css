@@ -1,5 +1,5 @@
 /* ------------------------------------- */
-/* BIG TABLET & BIGGER: 1024px - 1200px */
+/* BIG TABLET TO 1200px (widths smaller than the 1140px row): 1024px - 1200px */
 /* ------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .hero-text-box {
@@ -13,9 +13,9 @@
 
 
 /* ------------------------------------- */
-/* SMALL & BIG TABLETS: 768px - 1023px */
+/* SMALL TABLETS TO BIG TABLETS: 768px - 1023px */
 /* ------------------------------------- */
-@media only screen and (max-width: 2013px) {
+@media only screen and (max-width: 1023px) {
   body { font-size: 18px; }
   section { padding: 60px 0; }
 
@@ -43,15 +43,13 @@
     margin-left: 0%;
   }
 
-  .plan-price { font-size: 50%; }
-
   .contact-form { width: 80%; }
 
 }
 
 
 /* ------------------------------------- */
-/* SMALL PHONES & TABLETS: 481px - 767px */
+/* SMALL PHONES TO TABLETS: 481px - 767px */
 /* ------------------------------------- */
 @media only screen and (max-width: 767px) {
   body { font-size: 16px; }
