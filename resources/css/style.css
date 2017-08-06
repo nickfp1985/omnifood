@@ -592,7 +592,7 @@ footer p {
             animation-duration: 1s;
 }
 
-.js--wp-4 { animation-duration: 1s; }
+.js--wp-4 { -webkit-animation-duration: 1s; animation-duration: 1s; }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
