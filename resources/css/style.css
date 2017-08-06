@@ -234,7 +234,6 @@ header {
 
 
 /* ----- NAVIGATION ----- */
-
 .main-nav {
     float: right;
     list-style: none;
@@ -261,8 +260,20 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active { border-bottom: 2px solid #3498db; }
 
-/* ----- STICKY NAVI ----- */
+/* ----- MOBILE NAVI ---- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
 
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+/* ----- STICKY NAVI ----- */
 .sticky {
     position: fixed;
     top: 0;
@@ -277,7 +288,8 @@ header {
 .sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
+.sticky .main-nav li a:visited,
+.sticky .mobile-nav-icon i {
     padding: 16px 0;
     color: #555;
 }
