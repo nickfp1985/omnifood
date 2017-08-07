@@ -288,8 +288,7 @@ header {
 .sticky .main-nav { margin-top: 18px; }
 
 .sticky .main-nav li a:link,
-.sticky .main-nav li a:visited,
-.sticky .mobile-nav-icon i {
+.sticky .main-nav li a:visited {
     padding: 16px 0;
     color: #555;
 }
