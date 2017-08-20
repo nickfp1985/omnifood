@@ -57,13 +57,12 @@
 
   .row,
   .hero-text-box { padding: 0 4%; }
-
   .col {
     width: 100%;
     margin: 0 0 4% 0;
   }
 
-  /* .main-nav { display: none; } */
+  .main-nav { display: none; }
   .mobile-nav-icon { display: inline-block; }
 
   .main-nav {
@@ -78,6 +77,8 @@
   .main-nav li a:visited {
       display: block;
       border: 0;
+      padding: 10px 0;
+      font-size: 100%;
   }
 
   .sticky .main-nav { margin-top: 10px; }
@@ -86,7 +87,6 @@
   .sticky .main-nav li a:visited, { padding: 10px 0; }
   .sticky .mobile-nav-icon { margin-top: 10px; }
   .sticky .mobile-nav-icon i { color: #555; }
-
 
   .h1 { font-size: 180%; }
   .h2 { font-size: 150%; }
