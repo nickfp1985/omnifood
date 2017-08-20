@@ -60,36 +60,39 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     });
-});
 
-/* mobile nav */
-$('.js--nav-icon').click(function() {
-    var nav = $('.js--main-nav');
-    var icon = $('.js--nav-icon i');
 
-    nav.slideToggle(200);
-    if (icon.hasClass('ion-navicon-round')) {
-        icon.addClass('ion-close-round');
-        icon.removeClass('ion-navicon-round');
-    } else {
-        icon.addClass('ion-navicon-round');
-        icon.removeClass('ion-close-round');
-    }
-});
+    /* mobile nav */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
 
-/* gmaps */
-var map = new GMaps({
-  div: '.map',
-  lat: 38.7436883,
-  lng: -9.05,
-  zoom: 12
-});
+        nav.slideToggle(200);
+        if (icon.hasClass('ion-navicon-round')) {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-close-round');
+        }
+    });
 
-map.addMarker({
-    lat: 38.7436883,
-    lng: -9.1953089,
-    title: 'Lima',
-    click: function(e) {
-        alert('You clicked in this marker');
-    }
+
+    /* gmaps */
+    var map = new GMaps({
+      div: '.map',
+      lat: 38.7436883,
+      lng: -9.05,
+      zoom: 12
+    });
+
+    map.addMarker({
+        lat: 38.7436883,
+        lng: -9.1953089,
+        title: 'Lisbon',
+        infoWindow: {
+          content: '<p>Our Lisbon HQ</p>'
+        }
+    });
+
 });

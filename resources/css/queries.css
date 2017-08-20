@@ -43,7 +43,8 @@
     margin-left: 0%;
   }
 
-  .contact-form { width: 80%; }
+  .plan-price { font-size: 250%; }
+  .contact-form { width: 90%; }
 
 }
 
@@ -54,14 +55,14 @@
 @media only screen and (max-width: 767px) {
   body { font-size: 16px; }
   section { padding: 30px 0; }
-
+/*
   .row,
   .hero-text-box { padding: 0 4%; }
   .col {
     width: 100%;
     margin: 0 0 4% 0;
   }
-
+*/
   .main-nav { display: none; }
   .mobile-nav-icon { display: inline-block; }
 
@@ -109,6 +110,25 @@
 
   .works-step { margin-bottom: 20px; }
   .works-step:last-of-type { margin-bottom: 20px; }
+
+  .map-box {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+
+  .map {
+      width: 100%;
+      height: 300px;
+      position: relative;
+  }
+
+  .form-box {
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding: 30px 0;
+  }
 
 }
 
