@@ -548,7 +548,7 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
     height: 630px;
     padding-top: 40px;
 }
-
+/*
 .form-messages {
   width: 70%;
   margin: 0 auto;
@@ -561,7 +561,7 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
 .success { background-color: rgba(38, 191, 68, 0.8); }
 
 .error { background-color: rgba(209, 46, 46, 0.8); }
-
+*/
 
 /* ----------------------------- */
 /* FOOTER */
